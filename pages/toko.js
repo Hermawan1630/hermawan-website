@@ -22,7 +22,14 @@ export default function Toko() {
       gambar: "images/sosis.jpg"
     },
     {
-      id: 3,
+      id: 4,
+      nama: "Mie Tteok-Jae!",
+      harga: "Rp5.000",
+      deskripsi: "Topping Tambahan, memberikan pengalaman cita rasa yang baru untuk anda.",
+      gambar: "images/mie.jpg"
+    },
+    {
+      id: 5,
       nama: "Stiker Tteok-Jae!",
       harga: "Rp1.500",
       deskripsi: "Stiker logo oleh oleh dari toko kami.",
