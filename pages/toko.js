@@ -8,13 +8,6 @@ export default function Toko() {
       gambar: "images/p007-putih.jpg"
     },
     {
-      id: 2,
-      nama: "Topi Trucker",
-      harga: "Rp35.000",
-      deskripsi: "Topi jaring model trucker, cocok untuk gaya santai.",
-      gambar: "images/snapback-3249-2906193-1.webp"
-    },
-    {
       id: 3,
       nama: "Stiker Kustom",
       harga: "Rp10.000",
