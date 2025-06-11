@@ -2,9 +2,9 @@ export default function Toko() {
   const produk = [
     {
       id: 1,
-      nama: "Kaos Polos",
-      harga: "Rp50.000",
-      deskripsi: "Kaos polos bahan katun combed 30s.",
+      nama: "Tteokbokki",
+      harga: "Rp20.000",
+      deskripsi: "Tteokbokki original taste, memberikan cita rasa korea yang khas.",
       gambar: "images/p007-putih.jpg"
     },
     {
@@ -30,7 +30,7 @@ export default function Toko() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {produk.map((item) => (
           <div key={item.id} className="bg-white p-6 rounded-lg shadow-md">
-            <img src={item.gambar} alt={item.nama} className="w-48 h-48 object-cover rounded mb-4" />
+            <img src={item.gambar} alt={item.nama} className="w-50 h-50 object-cover rounded mb-4" />
             <h2 className="text-xl font-semibold text-gray-800">{item.nama}</h2>
             <p className="text-gray-600">{item.deskripsi}</p>
             <p className="mt-2 text-green-700 font-bold">{item.harga}</p>
