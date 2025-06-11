@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-100 p-8">
@@ -7,10 +9,10 @@ export default function Home() {
       </header>
 
       <nav className="flex justify-center gap-6 mb-12">
-        <a href="/tentang" className="text-blue-600 hover:underline">Tentang Saya</a>
-        <a href="/blog" className="text-blue-600 hover:underline">Blog</a>
-        <a href="/toko" className="text-blue-600 hover:underline">Toko</a>
-        <a href="/kontak" className="text-blue-600 hover:underline">Kontak</a>
+        <Link href="/tentang" className="text-blue-600 hover:underline">Tentang Saya</Link>
+        <Link href="/blog" className="text-blue-600 hover:underline">Blog</Link>
+        <Link href="/toko" className="text-blue-600 hover:underline">Toko</Link>
+        <Link href="/kontak" className="text-blue-600 hover:underline">Kontak</Link>
       </nav>
 
       <section className="max-w-3xl mx-auto bg-white rounded-lg p-6 shadow-md">
