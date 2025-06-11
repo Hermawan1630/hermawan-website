@@ -2,16 +2,30 @@ export default function Toko() {
   const produk = [
     {
       id: 1,
-      nama: "Tteokbokki",
+      nama: "Tteokbokki Tteok-Jae!",
       harga: "Rp20.000",
       deskripsi: "Tteokbokki original taste, memberikan cita rasa korea yang khas.",
-      gambar: "images/p007-putih.jpg"
+      gambar: "images/topoki.jpeg"
+    },
+        {
+      id: 2,
+      nama: "Eomuk Tteok-Jae!",
+      harga: "Rp5.000",
+      deskripsi: "Topping khas Korea, menambah cita rasa korea yang khas.",
+      gambar: "images/eomuk.png"
+    },
+            {
+      id: 3,
+      nama: "Sosis Tteok-Jae!",
+      harga: "Rp5.000",
+      deskripsi: "Topping Tambahan, memberikan pengalaman cita rasa yang baru untuk anda.",
+      gambar: "images/sosis.jpg"
     },
     {
       id: 3,
-      nama: "Stiker Kustom",
-      harga: "Rp10.000",
-      deskripsi: "Stiker cetak custom dengan desain kamu sendiri.",
+      nama: "Stiker Tteok-Jae!",
+      harga: "Rp1.500",
+      deskripsi: "Stiker logo oleh oleh dari toko kami.",
       gambar: "images/logo bg putih.png"
     },
   ];
