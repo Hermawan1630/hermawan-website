@@ -30,6 +30,13 @@ export default function Toko() {
     },
     {
       id: 5,
+      nama: "Mozarella Tteok-Jae!",
+      harga: "Rp5.000",
+      deskripsi: "Topping Tambahan, memberikan pengalaman cita rasa yang baru untuk anda.",
+      gambar: "images/mozarela.jpg"
+    },
+    {
+      id: 6,
       nama: "Stiker Tteok-Jae!",
       harga: "Rp1.500",
       deskripsi: "Stiker logo oleh oleh dari toko kami.",
